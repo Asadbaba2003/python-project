@@ -1,0 +1,31 @@
+mylist =[1,2,3,4,4,4,55,6]
+
+###list methods
+mylist.sort()
+print(mylist)
+mylist.clear()
+print(mylist)
+mylist.append(4)
+print(mylist)
+mylist.count(1)
+print(mylist)
+mylist.extend()
+print(mylist)
+mylist.insert(3,4)
+print(mylist)
+mylist.index(2)
+print(mylist)
+mylist.remove(2)
+print(mylist)
+mylist.pop(2)
+print(mylist)
+mylist.reverse()
+print(mylist)
+mylist.copy()
+print(mylist)
+mylist.len()
+print(mylist)
+mylist.min()
+print(mylist)
+
+

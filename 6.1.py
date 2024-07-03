@@ -1,0 +1,10 @@
+from tkinter import *
+window=Tk()
+window.title("canvas")
+window.geometry("500x500")
+mycan=Canvas(window,width="300",height="200",bg="red")
+mycan.pack(pady=20)
+mycan.create_line(0,100,300,100,fill="pink")
+mycan.create_line(150,0,150,200,fill="black")
+mycan.create_rectangle(50,50,250,200, fill="blue")
+window.mainloop()
